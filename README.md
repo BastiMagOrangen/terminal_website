@@ -1,29 +1,24 @@
 # terminal_website
 
-This template should help get you started developing with Vue 3 in Vite.
+## A Website that looks like a Linux Terminal made with Vuejs.
 
-## Recommended IDE Setup
+The website adopts the appearance of a Linux terminal, featuring a black background with green text to replicate the iconic Linux terminal look. Users can input commands to experience the functionality to a real terminal. The design is minimalistic.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Screenshots
+![Screenshot](readme_images/screen.png)
 
-## Customize configuration
+## How to use this
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
+1. clone this project
+2. go into the Folder
+3. Execute commands:
 
 ```sh
-npm run dev
+npm install #Install Dependencies
+
+npm run dev #Run for Development
+
+npm run build #Build for Production
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+After that the Website is ready to use. Feel free to make your own Commands, Styles, ...

@@ -67,6 +67,9 @@ export default {
           this.name = "password:"
           this.type = "password"
           break
+        case "end":
+          window.close()
+          break
         case "social-github":
         case "social-git":
         case "social-g":
@@ -152,11 +155,12 @@ p{
     }
   },
   mounted() {
-    this.commands.set("secret", "Bitte nicht starten")
+    this.commands.set("secret", "Don't start this")
     this.commands.set("help", "List all commands")
     this.commands.set("clear", "Clear Terminal")
     this.commands.set("social", "View Social Accounts")
     this.commands.set("login", "Login into Admin Account")
+    this.commands.set("end", "Closes Terminal")
     console.log(this.commands)
   }
 }
