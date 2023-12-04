@@ -1,0 +1,17 @@
+body{
+    background: #211D1B;
+    font-family: cursor, monospace;
+    letter-spacing: 0.05em;
+    padding: 15px 20px;
+}
+input {
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+}
+p {
+    margin: 0;
+}
+.highlight {
+    color: cadetblue !important;
+    text-shadow: 0 0 5px cadetblue;
+}
